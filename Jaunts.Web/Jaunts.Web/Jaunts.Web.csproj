@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Jaunts.Web.Client\Jaunts.Web.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.2" />
+    <PackageReference Include="RESTFulSense.WebAssembly" Version="2.18.0" />
+    <PackageReference Include="Syncfusion.Blazor.Buttons" Version="24.2.5" />
+    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="24.2.5" />
+    <PackageReference Include="Syncfusion.Blazor.Inputs" Version="24.2.5" />
+    <PackageReference Include="Syncfusion.Blazor.Popups" Version="24.2.5" />
+    <PackageReference Include="Syncfusion.Blazor.Spinner" Version="24.2.5" />
+    <PackageReference Include="Syncfusion.Licensing" Version="24.2.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Brokers\" />
+    <Folder Include="Models\" />
+    <Folder Include="Services\" />
+    <Folder Include="Shared\" />
+    <Folder Include="Views\" />
+    <Folder Include="wwwroot\css\" />
+  </ItemGroup>
+
+</Project>
